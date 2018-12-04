@@ -81,7 +81,7 @@ public class QRScanReader extends ReactContextBaseJavaModule {
         options.inSampleSize = sampleSize;
         scanBitmap = BitmapFactory.decodeFile(path, options);
         if(scanBitmap==null){
-            return null
+            return null;
         }
         int width=scanBitmap.getWidth();
         int height=scanBitmap.getHeight();
